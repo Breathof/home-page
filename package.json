@@ -1,0 +1,36 @@
+{
+  "name": "home-page",
+  "version": "1.0.0",
+  "description": "Clovis home page",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "bulid": "next build",
+    "prettier":"prettier -write .",
+    "lint":"next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breathof/home-page.git"
+  },
+  "keywords": [],
+  "author": "Clovis Ferreira Da Costa<nachofcz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Breathof/home-page/issues"
+  },
+  "homepage": "https://github.com/Breathof/home-page#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.6.0",
+    "next": "^12.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-next": "^12.0.9",
+    "prettier": "^2.5.1"
+  }
+}
